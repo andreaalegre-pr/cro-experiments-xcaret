@@ -1,5 +1,5 @@
-## Cliente
-Xcaret Parques
+## Experimento 2.2:
+PDP: Parques y Tours - CTA Sticky
 
 ## Cliente
 Xcaret Parques
@@ -15,6 +15,7 @@ Desktop & Mobile
 
 ## Ubicación
 Estapañol: https://www.xcaret.com/es/parques-y-tours/.*
+
 Inglés: https://www.xcaret.com/en/parks-and-tours/.*
 
 ## Cambios
