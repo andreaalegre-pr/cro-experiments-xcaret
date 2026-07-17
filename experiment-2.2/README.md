@@ -1,9 +1,6 @@
 ## Experimento 2.2:
 PDP: Parques y Tours - CTA Sticky
 
-## Cliente
-Xcaret Parques
-
 ## Hipótesis
 Si mantenemos visible el CTA de “Cotiza tu entrada” durante todo el recorrido de las PDPs, reduciremos la fricción generada por la pérdida de visibilidad del CTA durante el scroll, entonces facilitaremos el avance del usuario hacia la intención de compra, incrementando la tasa de add to cart y favoreciendo el avance hacia las siguientes etapas del funnel.
 
