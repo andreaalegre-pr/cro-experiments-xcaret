@@ -16,9 +16,15 @@ Español: https://www.xcaret.com/es/parques-y-tours/.*
 Inglés: https://www.xcaret.com/en/parks-and-tours/.*
 
 ## Cambios
-Desktop: Se crear un banner con el botón sticky que aparece en un porcentaje de scroll y desaparece al hacer scroll up.
+Desktop: Se crea un banner sticky con el CTA, que aparece al avanzar un porcentaje definido de scroll de la página.
+El banner se debe ocultar automáticamente en cuanto el usuario hace scroll up, y vuelve a aparecer solo si continúa haciendo scroll down y ya se superó el %scroll definido.
+El banner incluye un copy dinámico generado a partir del H1 de cada PDP (ejemplo: "Ready to experience Xel-Há?"), acompañando al botón de cotización dentro de la misma barra.
 
-Mobile: Se crear un banner con el botón sticky que aparece al % porcentaje de scroll y al hacer scroll up se pone arriba al menu porque al ser pantalla pequeña puede ayudar al usuario a cotizar desde cualquier acción.
+Mobile: Se crea un banner sticky con el CTA, que aparece al avanzar un porcentaje definido de scroll de la página.
+A diferencia de desktop, en mobile el banner permanece visible tanto al hacer scroll up como hacia scroll down, dado que en pantallas pequeñas facilita al usuario cotizar desde cualquier punto de su navegación.
+El banner ajusta su posición para ubicarse justo encima del menú de navegación inferior del sitio cuando el usuario hace scroll up, evitando que ambos elementos se superpongan.
+
+Importante: El banner desaparece por completo en el momento en que se abre el modal de compra, tanto en desktop como en mobile.
 
 ## Script
 - JavaScript (incluye los estilos CSS)
