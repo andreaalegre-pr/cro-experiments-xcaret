@@ -27,4 +27,4 @@ El banner ajusta su posición para ubicarse justo encima del menú de navegació
 Importante: El banner desaparece por completo en el momento en que se abre el modal de compra, tanto en desktop como en mobile.
 
 ## Script
-- JavaScript (incluye los estilos CSS)
+- JavaScript EN/ES (incluye los estilos CSS)
