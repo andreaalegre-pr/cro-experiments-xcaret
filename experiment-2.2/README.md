@@ -11,12 +11,14 @@ Incrementar la tasa de usuarios que avanzan desde las PDPs hacia al add to cart 
 Desktop & Mobile
 
 ## Ubicación
-Estapañol: https://www.xcaret.com/es/parques-y-tours/.*
+Español: https://www.xcaret.com/es/parques-y-tours/.*
 
 Inglés: https://www.xcaret.com/en/parks-and-tours/.*
 
 ## Cambios
-Las coberturas se agrupan en 3 grupos: “Atención médica”, “Viaje y equipaje” y “Protección adicional".
+Desktop: Se crear un banner con el botón sticky que aparece en un porcentaje de scroll y desaparece al hacer scroll up.
+
+Mobile: Se crear un banner con el botón sticky que aparece al % porcentaje de scroll y al hacer scroll up se pone arriba al menu porque al ser pantalla pequeña puede ayudar al usuario a cotizar desde cualquier acción.
 
 ## Script
 - JavaScript (incluye los estilos CSS)
