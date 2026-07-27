@@ -17,12 +17,12 @@ Desktop & Mobile
 - Inglés:
   Modal "Buy your tour" en el home, PDPs, PLPs.
 
-## Cambios
-Mobile: Se crea un banner sticky con el CTA, que aparece al avanzar un porcentaje definido de scroll de la página.
-A diferencia de desktop, en mobile el banner permanece visible tanto al hacer scroll up como hacia scroll down, dado que en pantallas pequeñas facilita al usuario cotizar desde cualquier punto de su navegación.
-El banner ajusta su posición para ubicarse justo encima del menú de navegación inferior del sitio cuando el usuario hace scroll up, evitando que ambos elementos se superpongan.
+Importante: En el home, el modal solo aparece en el dispositivo mobile.
 
-Importante: El banner desaparece por completo en el momento en que se abre el modal de compra, tanto en desktop como en mobile.
+## Cambios
+Desktop: Se mantiene el layout, solo ajustamos los colores del botón "Pagar" #0095D9 (mismo color del botón del checkout, así mantenemos la consistencia), el botón "Agregar al carrito" solo con outline naranja #FF9313.
+
+Mobile: El layout lo aplicamos verticalmente dando mayor relevancia al botón "Pagar" y abajo "Agregar al carrito", eliminamos el botón "Cerrar" (la "X" superior cubre la misma función), los colores del botón "Pagar" #0095D9 (mismo color del botón del checkout, así mantenemos la consistencia), el botón "Agregar al carrito" solo con outline naranja #FF9313.
 
 ## Script
-- JavaScript EN/ES (incluye los estilos CSS)
+- JavaScript Desktop/Mobile (incluye los estilos CSS)
