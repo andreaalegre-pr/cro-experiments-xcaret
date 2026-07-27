@@ -1,7 +1,4 @@
 (function () {
-  // ------------------------------------------------------------------
-  // CONFIG
-  // ------------------------------------------------------------------
   var SCROLL_THRESHOLD_PERCENT = 15;
   var ORIGINAL_SELECTOR = 'button[name="getYourAdmission"]';
   var MOBILE_NAV_SELECTOR = 'nav.menu-mobile';
@@ -19,11 +16,7 @@
   if (document.getElementById(STICKY_ID)) return;
 
   // ------------------------------------------------------------------
-  // DYNAMIC COPY (replicable across PDPs)
-  // Takes the <h1 itemprop="name">, cuts any subtitle after ":" "-" "|"
-  // and strips generic prefixes, keeping only the short product/park name.
-  // e.g. "Tickets to Xel-Há: Dive Into a Natural Paradise" -> "Xel-Há"
-  // ------------------------------------------------------------------
+
   function getDesktopCopy() {
     var FALLBACK_COPY = 'Ready for the experience?';
     var h1 = document.querySelector(H1_SELECTOR);
@@ -31,7 +24,7 @@
 
     var name = h1.textContent.trim();
 
-    // Cut subtitle after ":" "-" "|" -> "Tickets to Xel-Há: Dive Into..." -> "Tickets to Xel-Há"
+    // Subtitulo
     name = name.split(/[:\-|]/)[0].trim();
 
     // Strip generic English prefixes
@@ -47,7 +40,7 @@
   }
 
   // ------------------------------------------------------------------
-  // STYLES
+  // CSS
   // ------------------------------------------------------------------
   var style = document.createElement('style');
   style.innerHTML = `
@@ -133,7 +126,7 @@
   document.head.appendChild(hideCopyMobile);
 
   // ------------------------------------------------------------------
-  // MARKUP
+  // Mockup
   // ------------------------------------------------------------------
   var wrapper = document.createElement('div');
   wrapper.id = STICKY_ID;
@@ -158,7 +151,7 @@
   document.body.appendChild(wrapper);
 
   // ------------------------------------------------------------------
-  // SCROLL VISIBILITY
+  // Visibilidad SCROLL
   // ------------------------------------------------------------------
   var originalIsVisible = true;
 
@@ -195,7 +188,7 @@
   });
 
   // ------------------------------------------------------------------
-  // HIDE CTA WHEN THE BOOKING MODAL IS OPEN (mobile or desktop)
+  // Ocultar CTA al visualizar el modal (mobile o desktop)
   // ------------------------------------------------------------------
   function isBookingModalOpen() {
     var modals = document.querySelectorAll(MODAL_SELECTOR);
@@ -210,7 +203,7 @@
   }
 
   // ------------------------------------------------------------------
-  // SYNC WITH MOBILE NAV + MODAL CHECK (single loop)
+  // Nav
   // ------------------------------------------------------------------
   var mobileNav = document.querySelector(MOBILE_NAV_SELECTOR);
 
