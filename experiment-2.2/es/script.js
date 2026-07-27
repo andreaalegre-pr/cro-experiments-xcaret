@@ -1,7 +1,4 @@
 (function () {
-  // ------------------------------------------------------------------
-  // CONFIG
-  // ------------------------------------------------------------------
   var SCROLL_THRESHOLD_PERCENT = 15;
   var ORIGINAL_SELECTOR = 'button[name="getYourAdmission"]';
   var MOBILE_NAV_SELECTOR = 'nav.menu-mobile';
@@ -17,11 +14,6 @@
   }
   if (document.getElementById(STICKY_ID)) return;
 
-  // ------------------------------------------------------------------
-  // COPY DINÁMICO (replicable en cualquier PDP)
-  // Toma el <h1 itemprop="name"> de la página, limpia prefijos genéricos
-  // ("Entrada a", "Boleto a", etc.) y arma un copy corto para el CTA de
-  // desktop. Si no encuentra H1, usa un copy genérico de respaldo.
   // ------------------------------------------------------------------
   function getDesktopCopy() {
     var FALLBACK_COPY = '¿Listo para vivir la experiencia?';
@@ -41,7 +33,7 @@
   }
 
   // ------------------------------------------------------------------
-  // ESTILOS
+  // CSS
   // ------------------------------------------------------------------
   var style = document.createElement('style');
   style.innerHTML = `
@@ -121,7 +113,7 @@
   document.head.appendChild(style);
 
   // ------------------------------------------------------------------
-  // MARKUP: copy (solo desktop, vía CSS se oculta en mobile) + botón
+  // Mockup
   // ------------------------------------------------------------------
   var wrapper = document.createElement('div');
   wrapper.id = STICKY_ID;
@@ -154,7 +146,7 @@
   document.body.appendChild(wrapper);
 
   // ------------------------------------------------------------------
-  // VISIBILIDAD POR SCROLL
+  // Visibilidad Scroll
   // ------------------------------------------------------------------
   var originalIsVisible = true;
 
@@ -191,7 +183,7 @@
   });
 
   // ------------------------------------------------------------------
-  // OCULTAR CTA CUANDO EL MODAL DE COMPRA ESTÁ ABIERTO (mobile)
+  // Ocultar nav (mobile)
   // ------------------------------------------------------------------
   function isBookingModalOpen() {
     var modal = document.querySelector(MODAL_SELECTOR);
@@ -203,9 +195,7 @@
   }
 
   // ------------------------------------------------------------------
-  // SINCRONIZACIÓN CON EL MENÚ MÓVIL INFERIOR + CHEQUEO DE MODAL
-  // Un solo loop de rAF que ajusta la posición sobre el nav inferior y,
-  // en paralelo, oculta el CTA si el modal de compra está abierto.
+  // Funcionalidad Nav
   // ------------------------------------------------------------------
   var mobileNav = document.querySelector(MOBILE_NAV_SELECTOR);
 
