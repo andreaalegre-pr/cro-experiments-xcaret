@@ -2,7 +2,6 @@
   const BRAND_BLUE = '#0095D9';
 
   function applyChanges() {
-    // Contenedor exclusivo de desktop (tiene la clase "items-end", no tiene "flex-col")
     const outer = Array.from(document.querySelectorAll('div.border-t-2.border-grey-700'))
       .find(el => el.classList.contains('items-end') && !el.classList.contains('flex-col'));
 
