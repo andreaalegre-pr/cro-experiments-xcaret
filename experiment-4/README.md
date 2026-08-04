@@ -5,7 +5,7 @@ Home: Ficha de beneficios en el cotizador
 Si incorporamos una ficha de beneficios en el cotizador del home, mostrando las principales diferencias entre las opciones, entonces los usuarios podrán comparar y elegir con mayor claridad sin necesidad de abandonar el flujo para buscar información adicional, aumentando la interacción con el CTA de cotización y favoreciendo el avance dentro del funnel..
 
 ## Objetivo
- Incrementar la tasa de avance dentro del funnel de compra en mobile desde el home.
+Incrementar la tasa de avance dentro del funnel de compra en mobile desde el home.
 
 ## Dispositivos
 Mobile
