@@ -1,11 +1,11 @@
 ## Experimento 4:
-Modal Compra: Jerarquización de CTAs
+Home: Ficha de beneficios en el cotizador
 
 ## Hipótesis
-Si priorizamos visualmente la acción "Pagar" dentro del modal "Compra tu tour", destacándola sobre las acciones secundarias y eliminando elementos redundantes, entonces aumentará el porcentaje de usuarios que inician el flujo de compra directa, reduciendo el abandono en el modal e incrementando la conversión hacia el checkout.
+Si incorporamos una ficha de beneficios en el cotizador del home, mostrando las principales diferencias entre las opciones, entonces los usuarios podrán comparar y elegir con mayor claridad sin necesidad de abandonar el flujo para buscar información adicional, aumentando la interacción con el CTA de cotización y favoreciendo el avance dentro del funnel..
 
 ## Objetivo
-Incrementar la conversión del modal “Compra tu tour” hacia el checkout, incentivando la elección del flujo “Pagar” mediante una mejor jerarquía visual de las acciones disponibles.
+Incrementar la interacción con el CTA "Cotiza tu entrada" reduciendo la incertidumbre durante la selección de productos, mediante la incorporación de información clave de beneficios dentro del cotizador.
 
 ## Dispositivos
 Mobile
@@ -18,7 +18,24 @@ Mobile
   https://www.xcaret.com/en/
 
 ## Cambios
-Mobile: El layout lo aplicamos verticalmente dando mayor relevancia al botón "Pagar" y abajo "Agregar al carrito", eliminamos el botón "Cerrar" (la "X" superior cubre la misma función), los colores del botón "Pagar" #0095D9 (mismo color del botón del checkout, así mantenemos la consistencia), el botón "Agregar al carrito" solo con outline naranja #FF9313.
+Mobile: Cambios a detalle
+
+- Ficha de beneficios dinámica que se inserta dentro del cotizador y debajo del CTA "Cotiza tu entrada", justo antes del link "Más información".
+Contenido de ejemplo (por definir con cliente):
+Xcaret: 🎟️ Entrada al parque · 🌴 +50 actividades · 🎭 México Espectacular
+Xcaret Plus: 🎟️ Entrada al parque · 🍴 Buffet incluido · 🔒 Lockers incluidos · 🤿 Equipo de snorkel
+
+- La información se actualiza dinámicamente según la opción seleccionada en el selector:
+
+- Degradar "Más información" de botón a link de texto, pasa de botón con borde a link simple ("Más información →", sin borde, centrado, en azul de marca). Esto para reducir su peso visual y que no compita con el CTA principal "Cotiza tu entrada", ahora que la ficha ya resuelve gran parte de la necesidad de "saber más" sin salir de la página.
+
+- Estilo visual
+La ficha utiliza estilos consistentes con el cotizador actual:
+
+Fondo gris claro: #f7f7f7
+Título azul marca: #214387
+Texto descriptivo gris: #5c5c5c
+Bordes redondeados para integrarse con las cards existentes
 
 ## Script
-- JavaScript Desktop/Mobile (incluye los estilos CSS)
+- JavaScript Mobile (incluye los estilos CSS)
