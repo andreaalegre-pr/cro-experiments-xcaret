@@ -40,4 +40,4 @@ Mobile: Cambios a detalle
       Bordes redondeados para integrarse con las cards existentes
 
 ## Script
-- JavaScript Mobile (incluye los estilos CSS)
+- JavaScript ES/EN (incluye los estilos CSS)
