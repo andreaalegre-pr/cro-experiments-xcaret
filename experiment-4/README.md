@@ -20,19 +20,19 @@ Mobile
 ## Cambios
 Mobile: Cambios a detalle
 
-- Ficha de beneficios dinámica que se inserta dentro del cotizador y debajo del CTA "Cotiza tu entrada", justo antes del link "Más información".
+> Ficha de beneficios dinámica que se inserta dentro del cotizador y debajo del CTA "Cotiza tu entrada", justo antes del link "Más información".
 
-Contenido de ejemplo (por definir con cliente):
+  Contenido de ejemplo (por definir con cliente):
 
-Xcaret: 🎟️ Entrada al parque · 🌴 +50 actividades · 🎭 México Espectacular
+  Xcaret: 🎟️ Entrada al parque · 🌴 +50 actividades · 🎭 México Espectacular
 
-Xcaret Plus: 🎟️ Entrada al parque · 🍴 Buffet incluido · 🔒 Lockers incluidos · 🤿 Equipo de snorkel
+  Xcaret Plus: 🎟️ Entrada al parque · 🍴 Buffet incluido · 🔒 Lockers incluidos · 🤿 Equipo de snorkel
 
-- La información se actualiza dinámicamente según la opción seleccionada en el selector:
+> La información se actualiza dinámicamente según la opción seleccionada en el selector:
 
-- Degradar "Más información" de botón a link de texto, pasa de botón con borde a link simple ("Más información →", sin borde, centrado, en azul de marca). Esto para reducir su peso visual y que no compita con el CTA principal "Cotiza tu entrada", ahora que la ficha ya resuelve gran parte de la necesidad de "saber más" sin salir de la página.
+> Degradar "Más información" de botón a link de texto, pasa de botón con borde a link simple ("Más información →", sin borde, centrado, en azul de marca). Esto para reducir su peso visual y que no compita con el CTA principal "Cotiza tu entrada", ahora que la ficha ya resuelve gran parte de la necesidad de "saber más" sin salir de la página.
 
-- Estilo visual
+> Estilo visual
 La ficha utiliza estilos consistentes con el cotizador actual:
 
 Fondo gris claro: #f7f7f7
