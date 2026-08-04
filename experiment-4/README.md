@@ -21,8 +21,11 @@ Mobile
 Mobile: Cambios a detalle
 
 - Ficha de beneficios dinámica que se inserta dentro del cotizador y debajo del CTA "Cotiza tu entrada", justo antes del link "Más información".
+
 Contenido de ejemplo (por definir con cliente):
+
 Xcaret: 🎟️ Entrada al parque · 🌴 +50 actividades · 🎭 México Espectacular
+
 Xcaret Plus: 🎟️ Entrada al parque · 🍴 Buffet incluido · 🔒 Lockers incluidos · 🤿 Equipo de snorkel
 
 - La información se actualiza dinámicamente según la opción seleccionada en el selector:
